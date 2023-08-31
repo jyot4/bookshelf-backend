@@ -8,7 +8,7 @@ import user  from "./Routes/users.js";
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ origin: "http://localhost:3000" }))
+app.use(cors({ origin: "https://app-6gji.onrender.com" }))
 
 app.use( user);
 app.use( books);
